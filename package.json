@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-github-sdk",
+  "version": "0.1.0",
+  "description": "Provide Github Octokit SDK in msg.githubOctokit",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2"
+  },
+  "repository": "git@github.com:theredcat/node-red-contrib-github-octokit",
+  "author": "Nathan DELHAYE <the@red.cat>",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "node-red",
+    "github",
+	"octokit",
+	"sdk"
+  ],
+  "node-red": {
+    "nodes": {
+      "github-octokit": "src/github-octokit.js"
+    }
+  }
+}
