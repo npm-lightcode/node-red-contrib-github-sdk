@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-github-sdk",
+  "name": "@lightcode/node-red-contrib-github-sdk",
   "version": "0.1.0",
   "description": "Provide Github Octokit SDK in msg.githubOctokit",
   "dependencies": {
