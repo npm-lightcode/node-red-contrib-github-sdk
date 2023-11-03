@@ -3,16 +3,20 @@
   "version": "0.2.0",
   "description": "Provide Github Octokit SDK in msg.githubOctokit",
   "dependencies": {
+    "@lightcode/node-red-utils": "^0.1.0",
     "@octokit/rest": "^20.0.2"
   },
-  "repository": "git@github.com:theredcat/node-red-contrib-github-octokit",
+  "scripts": {
+    "prepack": "cp node_modules/@lightcode/node-red-utils/src/editor.js resources/editor-utils.js"
+  },
+  "repository": "git@github.com:theredcat/node-red-contrib-github-sdk",
   "author": "Nathan DELHAYE <the@red.cat>",
   "license": "AGPL-3.0-only",
   "keywords": [
     "node-red",
     "github",
-	"octokit",
-	"sdk"
+    "octokit",
+    "sdk"
   ],
   "node-red": {
     "nodes": {

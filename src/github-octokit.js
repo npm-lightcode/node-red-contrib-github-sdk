@@ -1,5 +1,5 @@
 const { Octokit } = require("@octokit/rest")
-const Utils = require("./utils.js")
+const { Utils } = require("@lightcode/node-red-utils")
 
 module.exports = function(RED) {
 	function GithubRepoInfoNode(config) {
