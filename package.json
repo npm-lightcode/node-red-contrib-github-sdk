@@ -7,7 +7,7 @@
     "@octokit/rest": "^20.0.2"
   },
   "scripts": {
-    "prepack": "cp node_modules/@lightcode/node-red-utils/src/editor.js resources/editor-utils.js"
+    "prepublishOnly": "npm install && cp node_modules/@lightcode/node-red-utils/src/editor.js resources/editor-utils.js"
   },
   "repository": "git@github.com:theredcat/node-red-contrib-github-sdk",
   "author": "Nathan DELHAYE <the@red.cat>",
